@@ -1,10 +1,10 @@
-# Image Super Resolution
+#Image Super Resolution
 
 **Author:** Abhinav  
 **Project Repository:** [GitHub Link](https://github.com/shyyshawarma/Super_resolution)  
 **Dataset Sample:** [Google Drive Link](https://drive.google.com/drive/folders/1Yj33rbX_OF2P7xSC4wrh-k1Zb-lnP1uO?usp=share_link)
 
-##  Overview
+##Overview
 
 This project aims to generate high-resolution images from low-resolution counterparts using deep learning techniques. It implements and compares several super-resolution models: **SRCNN**, **SwinIR**, and **SRGAN**.
 
@@ -12,7 +12,7 @@ This project aims to generate high-resolution images from low-resolution counter
 
 ---
 
-## 🔍 Models Implemented
+##Models Implemented
 
 ### 1. **SRCNN**  
 - Based on one of the first CNN architectures for SR.  
@@ -38,7 +38,7 @@ This project aims to generate high-resolution images from low-resolution counter
 
 ---
 
-##  Dataset & Preprocessing
+##Dataset & Preprocessing
 
 - Original: ~80 training images, 20 test images.  
 - After augmentation (rotation, flipping, jitter, crop):  
@@ -53,7 +53,7 @@ This project aims to generate high-resolution images from low-resolution counter
 
 ---
 
-##  Training Details
+##Training Details
 
 - Epoch-wise model saving and evaluation using PSNR.
 - SwinIR training took ~3–4 hours due to hardware limitations.
@@ -61,7 +61,7 @@ This project aims to generate high-resolution images from low-resolution counter
 
 ---
 
-## ⚖ Comparison Summary
+##Comparison Summary
 
 | Model   | PSNR (dB) | SSIM   | Remarks                              |
 |---------|-----------|--------|--------------------------------------|
@@ -73,7 +73,7 @@ This project aims to generate high-resolution images from low-resolution counter
 
 ---
 
-##  Challenges Faced
+##Challenges Faced
 
 1. ESRGAN implementation difficulties due to batch norm removal and RRDB blocks.
 2. Writing YAML files and hyperparameter tuning.
@@ -81,7 +81,7 @@ This project aims to generate high-resolution images from low-resolution counter
 
 ---
 
-##  Future Work
+##Future Work
 
 - Explore **DRCT-L** and **Transformer-based** models further.
 - Applications in:
@@ -92,7 +92,7 @@ More on this: [Papers with Code - Set14 SOTA](https://paperswithcode.com/sota/im
 
 ---
 
-##  References
+##References
 
 - [SRCNN Paper](https://arxiv.org/pdf/1501.00092)
 - [SwinIR Paper](https://arxiv.org/pdf/2108.10257)
@@ -102,7 +102,7 @@ More on this: [Papers with Code - Set14 SOTA](https://paperswithcode.com/sota/im
 
 ---
 
-##  Sample Results
+##Sample Results
 
 | Bicubic | SRCNN | SwinIR | SRGAN | Ground Truth |
 |---------|-------|--------|-------|--------------|
