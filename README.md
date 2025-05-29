@@ -106,7 +106,7 @@ More on this: [Papers with Code - Set14 SOTA](https://paperswithcode.com/sota/im
 
 | Bicubic | SRCNN | SwinIR | SRGAN | Ground Truth |
 |---------|-------|--------|-------|--------------|
-| ![bicubic](outputs/Bicubic) | ![srcnn](outputs//SRCNN) | ![swinir](outputs/SWIN-IR) | ![srgan](outputs/SRGAN) | ![gt](outputs/GT) |
+| ![bicubic](outputs/Bicubic.png) | ![srcnn](outputs//SRCNN.png) | ![swinir](outputs/SWIN-IR.png) | ![srgan](outputs/SRGAN.png) | ![gt](outputs/GT.png) |
 
 ---
 
